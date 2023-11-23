@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(43, 44, 45);
+}
+
+header{
+    position: relative;
+    background-color: white;
+    height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header img{
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 40px;
+}
+header nav{
+    height: 100%;
+    
+}
+header nav ul{
+    display: flex;
+
+    align-items: center;
+    line-height: 60px;
+}
+header nav ul li{
+    margin-left: 40px;
+    list-style: none;
+    
+}
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+input{
+
+    border: 1px solid rgb(125, 124, 124);
+    height: 35px;
+    border-radius: 30px;
+    
+    padding: 15px;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.btn-theme{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+}
+
+.login{
+    position: absolute;
+    top: 10px;
+    right: 6%;
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    border-radius: 40px;
+    border: 1px solid #04AA6D;
+}
+
+.login button{
+    height: 40px;
+    width: 100px;
+    border-radius: 40px;
+    border: none;
+}
+
+.signin{
+    background-color: #04AA6D;
+    color: white;
+}
+.signup{
+    color: black;
+}
